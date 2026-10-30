@@ -1,0 +1,81 @@
+body{background-color: aquamarine;}
+
+.frame {
+    border: 2px solid orange;
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.slidewrapper {
+    width: 800%;
+    height: 100%;
+    animation: slideshow 24s infinite;
+
+}
+
+@keyframes slideshow {
+    0% {margin-left: 0%;}
+    12.5% {margin-left: -100%;}
+    25% {margin-left: -200%;}
+    37.5% {margin-left: -300%;}
+    50% {margin-left: -400%;}
+    62.5% {margin-left: -500%;}
+    75% {margin-left: -600%;}
+    87.5% {margin-left: -700%;}
+    100% {margin-left: -700%;}
+
+}
+
+.frame > div > div {
+    width: 12.5%;
+    float: left;
+    height: 100%;
+
+}
+
+.s1 {background-color: red;
+    background-image: url(images/001.png);
+    background-size: 100% 100%;
+}
+
+.s2 {background-color: orange;
+    background-image: url(images/002.png);
+    background-size: 100% 100%;
+}
+
+.s3 {background-color: yellow;
+    background-image: url(images/004.png);
+    background-size: 100% 100%;
+}
+
+.s4 {background-color: green;
+    background-image: url(images/005.png);
+    background-size: 100% 100%;
+}
+
+.s5 {background-color: blue;
+    background-image: url(images/007.png);
+    background-size: 100% 100%;
+}
+
+.s6 {background-color: cyan;
+    background-image: url(images/008.png);
+    background-size: 100% 100%;
+}
+
+.s7 {background-color: indigo;
+    background-image: url(images/025.png);
+    background-size: 100% 100%;
+}
+
+.s8 {background-color: violet;
+    background-image: url(images/026.png);
+    background-size: 100% 100%;
+}
+
+/* .slide:nth-child(1) */
+/* DOMethod / java script */
